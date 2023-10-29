@@ -1,0 +1,80 @@
+//CONDITIONALS
+
+if (true) {
+console.log("This statement is true");
+} 
+
+let wave = true
+
+wave = false
+
+if (wave) {
+    console.log ("It's time to surf");
+} else {
+    console.log ("It's time to chill");
+}
+
+let waveLevel = 6
+
+if (waveLevel >= 6) {
+    console.log ("It's time to surf");
+} else {
+    console.log ("It's time to chill");
+}
+
+let stopLight = 'green';
+let pedestrians = 0;
+
+if (stopLight === 'green' && pedestrians === 0) {
+    console.log('Go!');
+  } else {
+    console.log('Stop');
+  }
+
+  let day1 = 'Friday';
+  let day2 = 'Thursday';
+
+  if (day1 === 'Saturday' || day2 === 'Sunday') {
+    console.log('Enjoy the weekend!');
+  } else {
+    console.log('Do some work.');
+  }
+
+
+  let wave1 = "7'"
+  let weather = "sunny"
+
+  if (wave1 === "7'" && weather === "sunny") {
+    console.log("Grab your boards!");
+  } else {
+    console.log("Stay in and chill");
+  }
+
+
+  let wave2 = "7'"
+  let weather2 = "sunny"
+
+  if (wave2 === "5'" || weather2 === "cloudy") {
+    console.log("Grab your boards!");
+  } else {
+    console.log("Stay in and chill");
+  }
+
+
+let rock = "dry"
+let skies = "clear"
+
+if (rock === "dry" || skies === "clear") {
+    console.log("Climb on");
+} else {
+    console.log("Let's go to the gym");
+} 
+
+let tank = ""
+
+if (tank) {
+    console.log("Let's drive");
+} else {
+    console.log("Let's take the boat");
+}
+
